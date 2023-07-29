@@ -1,0 +1,259 @@
+1. what is github ?
+
+=> GitHub is a code hosting platform for version control and collaboration. It lets you 
+   and others work together on projects from anywhere.
+
+
+2. what is git ?
+
+=> git is version control system.
+
+=> It is a free and open-source version control system used to handle small to very large
+   projects efficiently. Git is used to tracking changes in the source code, enabling 
+   multiple developers to work together on non-linear development.
+
+
+3. what is difference between git and github ?
+
+=>   Git is a software.	
+    GitHub is a service.
+
+=>  Git is a command-line tool. 
+    GitHub is a graphical user interface.
+
+=>  Git is installed locally on the system.
+	 GitHub is hosted on the web
+
+=>  Git is focused on version control and code sharing.	
+    GitHub is focused on centralized source code hosting.
+
+=>  Git is a version control system to manage source code history. 
+    GitHub is a hosting service for Git repositories.
+
+
+4. what is version control ?
+
+=> A version controls system records all the changes made to a file or set of files, so 
+   that specific version called later if needed 
+
+=> let take an example, multinational company that has office and employee all around the 
+   world. so they might be challenges and issue they face.
+
+   possible issue and challenges :
+
+   # challenges to collaboration
+   - there are so many people, they working on same project but different region(country)
+
+   # storing version 
+   - the project is not completed on single version. there may be n number of version 
+     in that situation the problem of storing all such commits in single place is 
+     huge challenges
+    
+   # restoring previous version '
+   - sometime is important to go back to the previous version to find root cause any bug
+
+   # figure out what happended : 
+   - at time it is cirtical to know what change we made previous version code.
+
+  THIS ALL PROBLEM SOLUTION IS VERSION Control
+
+  => version control system take care collaboration between employees, will help in 
+     having backups on the remote repository. it also help rolling back to the previous
+     commits  
+    
+
+meaning of version control  : 
+
+=> A version controls system records all the changes made to a file or set of files, so 
+   that specific version called later if needed 
+
+=> it is responiabilty of version control system to keep all the team member on the same 
+   page, it make sure every team member works on latest version of the file 
+
+=> The Version Control System helps manage the source code for the software team by 
+   keeping track of all the code modifications
+
+=> example: let say one company working with one project with 3 developer from diffrent 
+  location. there is one repository acting as server. there are 3 developer means workStation
+  here each workstation has their own working copy and all the workstation saving the code 
+  into particular server repository. this makes easy for any devloper access the task being  
+  done using the repository. in case the system any particular developer breakdown then work 
+  won't stop. there will be copy or source code in that central repository
+
+
+
+now whatever you have file inside of git. it will store the changed also h(history).
+
+git and github are different.
+
+to download any repository from github
+
+how to upload code in github :
+
+step 1 : go to particular repository which you want to download 
+         select code dropdown menu 
+         copy http link 
+         eg. https://github.com/mananpadhiyar/Edureka.git
+
+step 2 : create folder where you want to store that responiabilty data
+
+      like edureka folder
+      go inside open cmd 
+      type 
+      git clone <paste http Link>
+
+
+step:3 open git Bash 
+
+go to folder where you have added to git clone by using cd 
+
+cd f:
+cd /crypto-hunder-folder
+cd /crypto-hunder
+
+once find main 
+
+then write => git status 
+
+it shows your which folder or file are added or not
+if added then it will show it green
+if not will show it red 
+
+to add file or folder
+
+git add * 
+
+it will add all the file / folder 
+
+git commit -m "description" 
+
+then it order to add the changing run this command
+
+
+
+How to push project folder to github directly from vs code
+
+#1 create repository first in github account
+
+ copy the url of created repository 
+
+#2 go to the vs code => click => source control
+
+after clickly you will see message input there you need to write commit of project
+
+you will have ... in upside click on it => go => push/pull => push => add remote 
+
+in add remote you need to paste the url that you copied from the github 
+
+then press Enter
+
+then need to add remote name like project  
+
+then again go to that push/pull option => go => push to 
+
+now their will be already have link that we have pasted over here 
+
+just click on it
+
+
+## how github works actually ?
+
+=> let take an example we facebook source code 
+
+=> so need to store in github for that we can create repository for that and store their.
+
+# what is repository ?
+=> a repository is a central file storage location. It is used by version control systems 
+   to store multiple versions of files. 
+
+=> that respository we called as HEAD 
+
+
+now lets say we need to change something in project for that we have created 3 teams 
+1 team for changing login/signup page , 2 team home page , 3 team is for footer part 
+
+now for that we have Created Branch 
+
+now what is Branch ?
+
+=> Branch is complete replica(copy) of head
+=> Branches allow you to develop features, fix bugs, or safely experiment with new ideas \
+   in a contained area of your repository. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  git push origin
+
+we can create our own Branch
+like we are making changing in this months so i will create branch name like => 
+=> v202307015FBlogin
+
+now lets say our team one done with login branch
+
+now here team2 needed team1 code in order to work 
+
+so here team1 will go their branch click on update option 
+
+their team2 can access the code of team 1
+
+
+how to push the changes in github ?
+
+just like we do push source code from vs code to github
+
+after pushing code to github
+
+when you make some changes in code 
+
+you will see M symbol in file  that nothing changes you made show but didn't push on github
+
+for that go => git icon => their you will see what changes you made
+
+give their commits
+
+then click on right symbol => click => yes 
+
+after clicking yes process will start
+
+for adding those changes simple click on 3 dots  => pull to =>automatically open url of github 
+
+if it is not their then copy from github past over here
+
+enter that it.
+
+
+
+
+
+
